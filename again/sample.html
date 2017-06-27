@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<style type="text/css">
+	#box{
+		animation-name: color-change;
+		animation-duration: 2s;
+		animation-iteration-count: 10;
+		animation-delay: 0s;
+		animation-direction: alternate-reverse;
+	}
+	@keyframes color-change {
+		0%{
+			background-color: red;
+		}
+
+		20%{
+			background-color: green;
+		}
+
+		60%{
+			background-color: yellow;
+		}
+			
+		100%{
+			background-color: blue;
+		}
+	}
+	@media only screen and (min-width: 750px){
+		@keyframes color-change {
+			0%{
+				background-color: red;
+			}
+
+			20%{
+				background-color: green;
+			}
+
+			60%{
+				background-color: yellow;
+			}
+			
+			100%{
+				background-color: blue;
+			}
+		}
+	}
+</style>
+<div id = "box">
+	<p>Something Something</p>
+</div>
