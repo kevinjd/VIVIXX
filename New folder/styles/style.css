@@ -1,0 +1,159 @@
+.body{
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+	margin-top: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;	
+}
+
+.firstrow button{
+	font-family: "Courier New", monospace;
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	border-radius: 8px;
+	font-size: 20px;
+	background-color: #ffffff;
+	padding: 14px 40px;
+}
+
+.firstrow a{
+	text-decoration: none;
+}
+
+.firstrow h1{
+	font-family: "Courier New", monospace;
+	position: absolute;
+	top: 22%;
+	left: 5%;
+	font-size: 70px;
+	color: #ffffff;
+}
+
+.firstrow img{
+	width: 100%;
+	height: 100%;
+}
+
+.firstrow{
+	padding-bottom: 0px;
+}
+
+.secondrow h1{
+	font-family: "Courier New", monospace;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.secondrow img{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	height: 20%;
+	width: 20%;
+	border: 2px solid black;
+	border-radius: 150px;
+	margin-bottom: 30px;
+}
+
+.secondrow p{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	font-weight: bold;
+}
+
+.secondrow{
+	padding-bottom: 20px;
+}
+
+.thirdrow h1{
+	font-family: "Courier New", monospace;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin: 0px;
+}
+
+.thirdrow{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background-color: #d3d3d3;
+}
+
+.gallery{
+	margin-top: 0px;
+	padding-top: 0px; 
+	overflow: hidden; 
+}
+
+.gallery figure img{ 
+	padding-top: 0px;
+	width: auto; 
+	float: left;
+	height: auto;
+}
+
+.gallery figure { 
+	padding-top: 0px;
+ 	position: relative;
+  	width: 500%;
+  	margin: 0;
+  	left: 0;
+  	text-align: left;
+  	font-size: 0;
+  	animation: 20s slidy infinite; 
+}
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+.fourthrow h1{
+	font-family: "Courier New", monospace;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0px;
+}
+
+.fourthrow{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	background-color: #d3d3d3;
+}
+
+.mubis{
+	padding-top: 20px;
+  	margin-left: 30%;
+  	margin-right: auto;
+}
+
+.footer{
+	background-color: #000000;
+	margin: 0px;
+}
+
+.footer p{
+	margin-left: 10px;
+	padding-bottom: 0px;
+	color: #ffffff;
+}
+
+/*CSS for Second Page*/
+.bato p{
+	font-size: 50px;
+}

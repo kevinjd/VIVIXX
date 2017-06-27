@@ -1,0 +1,280 @@
+body {
+    border: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav {
+    padding-top: 30px;
+    padding-right: 200px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+    padding-right: 10px;
+}
+
+li a {
+    font-family: 'PT Serif', serif;
+    font-size: 17px;
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #696969;
+}
+
+li button {
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    top: 363%;
+    left: 60%;
+    border: none;
+    padding: 2px 5px;
+    text-align: center;
+    border-radius: 99px;
+    color: #ffffff;
+    background-color: #00bfff;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #00bfff;
+    color: black;
+}
+
+.frowcontent {
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    padding-top: 20px;
+}
+
+.frowcontent h1 {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    font-size: 68px;
+    line-height: 50px;
+}
+
+.srowcontent img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 100%;
+    left: 13%;
+}
+
+.srowsub {
+    position: absolute;
+    letter-spacing: -1px;
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    font-size: 28px;
+    top: 105%;
+    left: 45%;
+    width: 35%;
+    height: auto;
+    font-weight: 400;
+}
+
+.uxdesign {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    position: absolute;
+    top: 180%;
+    left: 13%;
+    width: 30%;
+}
+
+.uxdesign p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.fedev {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    position: absolute;
+    top: 178%;
+    left: 50%;
+    width: 30%;
+}
+
+.fedev img {
+    width: 75px;
+}
+
+.fedev p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.dteacher {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    position: absolute;
+    top: 230%;
+    left: 13%;
+    width: 30%;
+}
+
+.dteacher img {
+    width: 90px;
+}
+
+.dteacher p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.cspeaker {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    width: 30%;
+}
+
+.cspeaker img {
+    width: 90px;
+}
+
+.cspeaker p {
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.fifthrowcontent {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+}
+
+.image img {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    left: 13%;
+    top: 310%;
+}
+
+.fifthrowcontent h1 {
+    position: absolute;
+    top: 310%;
+    left: 60%;
+    width: 22%;
+    font-size: 50px;
+}
+
+.fifthrowcontent p {
+    position: absolute;
+    top: 340%;
+    left: 60%;
+    width: 22%;
+    font-size: 25px;
+}
+
+.fifthrowcontent button a{
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    position: absolute;
+    top: 363%;
+    left: 60%;
+    border: none;
+    padding: 14px 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 99px;
+    color: #ffffff;
+    background-color: #00bfff;
+}
+
+.sixrowcontent {
+    width: auto;
+    height: 500px;
+}
+
+.sixrowcontent h1 {
+    font-family: 'PT Serif', serif;
+    color: #27303b;
+    font-size: 50px;
+    position: absolute;
+    top: 410%;
+    left: 13%;
+}
+
+.img1 {
+    border: 3px solid white;
+    position: absolute;
+    top: 440%;
+    left: 13%;
+}
+
+.img2 {
+    position: absolute;
+    top: 440%;
+    left: 48%;
+}
+
+.img3 {
+    position: absolute;
+    top: 500%;
+    left: 13%;
+}
+
+.img4 {
+    position: absolute;
+    top: 500%;
+    left: 48%;
+}
+
+.sixrowcontent img:hover {
+    outline: 3px solid #add8e6;
+}
+
+.sixrowcontent button {
+    position: absolute;
+    top: 570%;
+    left: 13%;
+    text-decoration: none;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    border: none;
+    padding: 8px 50px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 99px;
+    color: #ffffff;
+    background-color: #00bfff;
+}
+
+.sixrowcontent button:hover {
+    background-color: #7ec0ee;
+}
+
+.sixrowcontent button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*seconday css*/
+.twobody {
+    overflow-x: hidden;
+    border: 0px ;
+    width: auto;
+    height: auto;
+}
